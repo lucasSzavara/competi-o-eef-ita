@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "previsao-atraso-voo"
+version = "0.1.0"
+description = ""
+authors = ["Lucas dos Santos Rodrigues Szavara <szavara.lucas.santos@gmail.com>"]
+readme = "README.md"
+packages = [{include = "previsao_atraso_voo"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^4.1.6"
+pandas = "^2.2.2"
+MetPy = "^1.6.2"
+seaborn = "^0.13.2"
+matplotlib = "^3.8.4"
+scikit-learn = "^1.4.2"
+xgboost = "^2.0.3"
+imblearn = "^0.0"
+keras = "^3.3.3"
+tensorflow = "^2.16.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
